@@ -1,0 +1,13 @@
+
+#
+#  this is example of zmq for file transport, if you have any prolem please contact me via 517609429@qq.com
+# 
+
+## compile
+compile fsvr :  
+           1. cd fserver
+           2. g++ -o fsvr file_server.cpp -lzmq
+compile fsender :
+           1. cd sender
+           2. g++ -o fsender file_sender.cpp -lzmq
+
